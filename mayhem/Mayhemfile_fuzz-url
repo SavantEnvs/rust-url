@@ -1,0 +1,6 @@
+project: savantenvs/rust-url
+target: fuzz-url
+
+cmds:
+  - cmd: /mayhem/fuzz-url
+    libfuzzer: true

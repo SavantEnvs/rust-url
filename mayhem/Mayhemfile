@@ -1,0 +1,6 @@
+project: savantenvs/rust-url
+target: parse
+
+cmds:
+  - cmd: /mayhem/parse
+    libfuzzer: true
